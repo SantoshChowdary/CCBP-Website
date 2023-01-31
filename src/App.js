@@ -4,6 +4,8 @@ import Header from './Components/Header'
 import IntensiveBanner from './Components/IntensiveBanner'
 import FirstSection from './Components/FirstSection'
 import SecondSection from './Components/SecondSection'
+import AllCompanies from './Components/FourthSection'
+import AwardsSection from './Components/FifthSection'
 import './App.css'
 
 class App extends Component {
@@ -14,6 +16,8 @@ class App extends Component {
         <IntensiveBanner />
         <FirstSection />
         <SecondSection />
+        <AllCompanies />
+        <AwardsSection />
       </>
     )
   }
