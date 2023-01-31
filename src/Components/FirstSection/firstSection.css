@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.first-section-display {
+  padding: 30px 80px;
+  display: flex;
+}
+.first-div {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.first-div h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.first-div p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.first-div-awards-section {
+  display: flex;
+  padding: 20px 0;
+}
+.first-div-awards-section img {
+  width: 200px;
+}
+.product-cards-list {
+  display: flex;
+}

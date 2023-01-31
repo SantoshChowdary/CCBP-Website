@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+  height: 10vh;
+}
+.nav-bar ul {
+  display: flex;
+  margin-right: 50px;
+}
+.nav-bar ul li {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.react-arrow-icon {
+  padding-top: 2px;
+  color: #4f46e5;
+}

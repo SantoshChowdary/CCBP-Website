@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.academy-display-card {
+  border: 2px solid #b5b5b3;
+  border-radius: 15px;
+  margin: 20px 40px;
+  padding: 10px 30px;
+  width: 360px;
+  height: 570px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.image-first-div {
+  display: flex;
+  margin-top: -30px;
+}
+.student-image {
+  width: 150px;
+  height: 240px;
+}
+.second-div {
+  margin-top: -30px;
+  background-color: white;
+}
+.product-logo {
+  width: 150px;
+}
+.first-para {
+  background-color: #e0e7ff;
+  color: #3730a3;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 10px 0 10px 0;
+  width: fit-content;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+.second-para {
+  background-color: #cffafe;
+  color: #155e75;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 10px 0 10px 0;
+}
+.card-heading {
+  font-size: 24px;
+  color: #183b56;
+}
+.batch-data-div,
+.limited-seats-div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.batch-details {
+  width: 70%;
+}
+.batch-data-div :nth-child(1) {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 700;
+}
+.batch-data-div :nth-child(2) {
+  color: black;
+  font-size: 15px;
+}
+.book-demo-link {
+  text-align: center;
+  background-color: #1565d8;
+  width: 290px;
+  height: 48px;
+  align-self: center;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.know-more-link {
+  color: #1565d8;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
