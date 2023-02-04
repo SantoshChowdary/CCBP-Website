@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.youtube-reviews-section {
+  padding: 50px 80px;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.youtube-thumbnail {
+  /* border: 1px solid rgb(86, 76, 76); */
+  width: 360px;
+  height: 300px;
+}

@@ -1,0 +1,83 @@
+.masterclass-demo-link {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  padding: 15px 30px;
+  color: #183b56;
+  align-self: flex-start;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.masterclass-section {
+  background-color: #183b56;
+  color: white;
+  padding: 100px;
+}
+.masterclass-first-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.masterclass-sub-section-1 {
+  width: 45%;
+}
+.masterclass-sub-section-1 h1 {
+  font-size: 45px;
+}
+.main-masterclass {
+  width: 40%;
+  background-color: white;
+  color: #183b56;
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+.main-masterclass a img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.main-masterclass p {
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+.masterclass-sub-section-1 p {
+  margin: 30px 0;
+  font-size: 18px;
+  line-height: 36px;
+  color: #b3bac5;
+}
+.masterclass-sub-section-1 img {
+  width: 600px;
+  margin-bottom: 60px;
+}
+.sub-masterclasses {
+  margin-top: 100px;
+  display: flex;
+}
+.sub-masterclasses li {
+  width: 300px;
+  height: auto;
+  color: #183b56;
+  background-color: white;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.mentor-profile {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.mentor-data-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  font-size: 20px;
+}
+.mentor-data-div img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.sub-masterclasses li h3 {
+  margin-left: 15px;
+}

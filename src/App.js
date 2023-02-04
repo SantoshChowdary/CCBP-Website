@@ -6,6 +6,11 @@ import FirstSection from './Components/FirstSection'
 import SecondSection from './Components/SecondSection'
 import AllCompanies from './Components/FourthSection'
 import AwardsSection from './Components/FifthSection'
+import MentorsSection from './Components/SixthSection'
+// import UserReviews from './Components/SeventhSection'
+// import YoutubeReviews from './Components/EightSection'
+import FeaturedSection from './Components/NinthSection'
+import MasterClassMentors from './Components/TenthSection'
 import './App.css'
 
 class App extends Component {
@@ -18,6 +23,11 @@ class App extends Component {
         <SecondSection />
         <AllCompanies />
         <AwardsSection />
+        <MentorsSection />
+        {/* <UserReviews /> */}
+        {/* <YoutubeReviews /> */}
+        <FeaturedSection />
+        <MasterClassMentors />
       </>
     )
   }

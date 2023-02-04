@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.user-reviews-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.render-review-div {
+  width: 60%;
+  text-align: center;
+}
+.render-review-div .quote-img {
+  width: 50px;
+}
+.render-review-div div h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.first-review-div {
+  display: flex;
+}
+.review-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.company-img {
+  width: 220px;
+  height: 80px;
+}
+.sliding-pic {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
