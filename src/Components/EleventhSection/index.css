@@ -1,0 +1,23 @@
+.investors-section {
+  margin: 100px;
+}
+
+.investors-top-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.investing-companies-div img {
+  margin-right: 20px;
+  width: 330px;
+  height: 100px;
+}
+.investors-top-section p {
+  font-weight: 600;
+  color: #183b56;
+  font-size: 24px;
+}
+.investors-top-section h1 {
+  margin: 30px 0;
+  color: #183b56;
+  font-size: 48px;
+}

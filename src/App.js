@@ -11,6 +11,7 @@ import MentorsSection from './Components/SixthSection'
 // import YoutubeReviews from './Components/EightSection'
 import FeaturedSection from './Components/NinthSection'
 import MasterClassMentors from './Components/TenthSection'
+import InvestorsData from './Components/EleventhSection'
 import './App.css'
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
         {/* <YoutubeReviews /> */}
         <FeaturedSection />
         <MasterClassMentors />
+        <InvestorsData />
       </>
     )
   }
