@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.media-section {
+  padding: 50px 100px;
+}
+.media-section .h {
+  font-size: 48px;
+  color: #183b56;
+  margin-left: 25px;
+}
+.media-section .h sup {
+  font-weight: normal;
+  font-size: 20px;
+}
+.media-card-section {
+  margin: 40px 0;
+}
+.media-card {
+  height: 360px;
+  width: 380px !important;
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 20px;
+}
+.card-sub-div-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-sub-div-2 img {
+  height: 40px;
+}
+.media-img {
+  height: 150px;
+  width: 330px;
+  margin: 15px 0;
+}
+.media-slider {
+  display: flex;
+  justify-content: space-between;
+}
+.media-card h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.media-card a {
+  color: #1565d8;
+  font-weight: 700;
+}

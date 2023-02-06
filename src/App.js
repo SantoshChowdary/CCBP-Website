@@ -12,6 +12,7 @@ import MentorsSection from './Components/SixthSection'
 import FeaturedSection from './Components/NinthSection'
 import MasterClassMentors from './Components/TenthSection'
 import InvestorsData from './Components/EleventhSection'
+import MediaSection from './Components/TwelthSection'
 import './App.css'
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
         <FeaturedSection />
         <MasterClassMentors />
         <InvestorsData />
+        <MediaSection />
       </>
     )
   }
