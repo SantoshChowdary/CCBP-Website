@@ -2,20 +2,16 @@
   box-sizing: border-box;
   margin: 0;
 }
-.user-reviews-section {
+.render-review-div {
+  margin: 10% 10% 0 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-.render-review-div {
-  width: 60%;
-  text-align: center;
 }
 .render-review-div .quote-img {
   width: 50px;
+  margin-right: 20px;
 }
 .render-review-div div h1 {
   font-size: 30px;
@@ -28,14 +24,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .company-img {
-  width: 220px;
-  height: 80px;
+  width: auto;
+  height: 50px;
+  margin-left: 30px;
 }
-.sliding-pic {
+.dot-style .slick-active {
+  border: 2px solid black;
   border-radius: 50%;
-  width: 40px;
   height: 40px;
+  width: 40px;
+  padding: 4px 4px 0 0;
+}
+.user-reviews-slider-container {
+  height: 50vh;
+  margin: 0 0 100px 0;
 }

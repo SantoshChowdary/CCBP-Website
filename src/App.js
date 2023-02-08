@@ -7,12 +7,13 @@ import SecondSection from './Components/SecondSection'
 import AllCompanies from './Components/FourthSection'
 import AwardsSection from './Components/FifthSection'
 import MentorsSection from './Components/SixthSection'
-// import UserReviews from './Components/SeventhSection'
+import UserReviews from './Components/SeventhSection'
 // import YoutubeReviews from './Components/EightSection'
 import FeaturedSection from './Components/NinthSection'
 import MasterClassMentors from './Components/TenthSection'
 import InvestorsData from './Components/EleventhSection'
 import MediaSection from './Components/TwelthSection'
+import FooterSection from './Components/ThirteenthSection'
 import './App.css'
 
 class App extends Component {
@@ -26,12 +27,13 @@ class App extends Component {
         <AllCompanies />
         <AwardsSection />
         <MentorsSection />
-        {/* <UserReviews /> */}
+        <UserReviews />
         {/* <YoutubeReviews /> */}
         <FeaturedSection />
         <MasterClassMentors />
         <InvestorsData />
         <MediaSection />
+        <FooterSection />
       </>
     )
   }

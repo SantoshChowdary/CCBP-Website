@@ -305,28 +305,44 @@ const userReviewsList = [
   },
 ]
 
-// {
-//     id: 1,
-//     imageUrl: '',
-//     name: 'Sayak Dutta',
-//     company: '',
-//     companyLogoUrl:
-//       'https://nxtwave.imgix.net/ccbp-website/Home/one-line-testimonials/Google_logo.png?auto=format,compress&q=80',
-//     jobType: 'Software Engineer',
-//     comment:
-//       'Bite-sized training and mentorship helped me learn advanced skills. It should be introduced to students of all ages.',
-//   },
-
 class UserReviews extends Component {
   settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 7500,
+    autoplaySpeed: 0,
+    fade: false,
+    cssEase: 'linear',
+    // appendDots: dots => (
+    //   <div
+    //     style={{
+    //       padding: '10px',
+    //       margin: '-30px',
+    //     }}
+    //   >
+    //     <ul className="dot-style" style={{margin: '-20px'}}>
+    //       {dots}
+    //     </ul>
+    //   </div>
+    // ),
+    // customPaging: i => (
+    //   <div
+    //     style={{
+    //       width: '40px',
+    //       height: '40px',
+    //       color: '#183b56',
+    //       fontSize: '20px',
+    //     }}
+    //   >
+    //     {i + 1}
+    //   </div>
+    // ),
   }
 
-  renderReview = () => (
+  renderReview = item => (
     <div className="render-review-div">
       <div className="first-review-div">
         <img
@@ -334,18 +350,15 @@ class UserReviews extends Component {
           alt="quote-img"
           className="quote-img"
         />
-        <h1 className="review">
-          Bite-sized training and mentorship helped me learn advanced skills. It
-          should be introduced to students of all ages.
-        </h1>
+        <h1 className="review">{item.comment}</h1>
       </div>
       <div className="review-user">
         <div>
-          <h4>Sayak Dutta</h4>
-          <p>Software Engineer</p>
+          <h4>{item.name}</h4>
+          <p>{item.company}</p>
         </div>
         <img
-          src="https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f2effec895221fcb99ea2_Qualcomm-1.png?auto=format,compress&q=80"
+          src={item.companyLogoUrl}
           alt="company-logo"
           className="company-img"
         />
@@ -355,21 +368,15 @@ class UserReviews extends Component {
 
   render() {
     return (
-      <>
-        <div className="user-reviews-section">
-          <div className="slider-section">
-            <Slider {...this.settings}>
-              {userReviewsList.map(item => (
-                <img
-                  src="https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/vamsi-krishna.png?auto=format,compress&q=80"
-                  alt={item.name}
-                  className="sliding-pic"
-                />
-              ))}
-            </Slider>
-          </div>
+      <div className="user-reviews-slider-container">
+        <div className="slider-container">
+          <Slider {...this.settings}>
+            {userReviewsList.map(item => (
+              <div>{this.renderReview(item)}</div>
+            ))}
+          </Slider>
         </div>
-      </>
+      </div>
     )
   }
 }

@@ -19,7 +19,7 @@ const newsList = [
   },
   {
     id: 2,
-    'website ;':
+    websiteUrl:
       'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/61bc38921b5d65031b0f5e10_Frame%20491%20(5).png',
     imageUrl:
       'https://nxtwave.imgix.net/ccbp-website/Home/articles/image3.png?auto=format,compress&q=80',
