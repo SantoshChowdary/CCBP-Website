@@ -3,14 +3,13 @@
   margin: 0;
 }
 .render-review-div {
-  margin: 10% 10% 0 10%;
+  margin: 5% 10% 1% 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 30vh;
 }
 .render-review-div .quote-img {
-  width: 50px;
+  width: 70px;
   margin-right: 20px;
 }
 .render-review-div div h1 {
@@ -32,13 +31,24 @@
   margin-left: 30px;
 }
 .dot-style .slick-active {
-  border: 2px solid black;
+  border: 4px solid rgb(5, 44, 237);
   border-radius: 50%;
+  height: 48px;
+  width: 50px;
+}
+.dot-style li {
+  margin: 0 15px;
   height: 40px;
   width: 40px;
-  padding: 4px 4px 0 0;
+}
+.dot-style {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  overflow: hidden;
 }
 .user-reviews-slider-container {
   height: 50vh;
-  margin: 0 0 100px 0;
+  width: 90vw;
+  margin: 0 0 50px 0;
 }

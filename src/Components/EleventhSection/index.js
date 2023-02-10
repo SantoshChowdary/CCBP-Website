@@ -79,7 +79,7 @@ const investorsData = [
   },
   {
     id: 11,
-    name: 'Ramakanth Sharma',
+    name: 'Ramakanth',
     company: 'Founder & COO, LivSpace',
     imageUrl:
       'https://nxtwave.imgix.net/ccbp-website/Home/investors/Ramakanth+Sharma.png?auto=format,compress&q=80',
@@ -133,7 +133,34 @@ class InvestorsData extends Component {
     autoPlay: true,
     swipeToSlide: true,
     slidesPerRow: 1,
+    slidesToScroll: 3,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesPerRow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   }
 
   render() {

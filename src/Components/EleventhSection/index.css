@@ -37,9 +37,16 @@
   width: 300px; */
   margin: 20px;
 }
+.investor p {
+  overflow: hidden;
+}
 .investor img {
   display: inline;
   height: 120px;
   width: 120px;
   border-radius: 50%;
+}
+.investor-company {
+  width: 60%;
+  margin-left: 20%;
 }

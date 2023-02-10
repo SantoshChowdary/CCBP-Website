@@ -8,7 +8,8 @@ import './index.css'
 const userReviewsList = [
   {
     id: 1,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/618b5be656edd84f4b7562e5_Anvesh.png',
     name: 'Sayak Dutta',
     company: '',
     companyLogoUrl:
@@ -19,7 +20,8 @@ const userReviewsList = [
   },
   {
     id: 2,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a030025472358_Soumith.png',
     name: 'Soumith',
     company: '',
     companyLogoUrl:
@@ -30,7 +32,8 @@ const userReviewsList = [
   },
   {
     id: 3,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6bbe02c1535d7695925_MEGHNA%20BARNWAL.png',
     name: 'Meghna Barnwl',
     company: '',
     companyLogoUrl:
@@ -41,7 +44,8 @@ const userReviewsList = [
   },
   {
     id: 4,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6bc92a79b77c2033e5d_Ranjith%20Tevnan.png',
     name: 'Ranjith Tevnan',
     company: '',
     companyLogoUrl:
@@ -52,7 +56,8 @@ const userReviewsList = [
   },
   {
     id: 5,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a03a879472370_Jamma%20Sathwik%202x.png',
     name: 'Jamma Sathwik',
     company: '',
     companyLogoUrl:
@@ -63,7 +68,8 @@ const userReviewsList = [
   },
   {
     id: 6,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f0179eb9b32402faf86bd_Jatin.png',
     name: 'Karthikeya',
     company: '',
     companyLogoUrl:
@@ -74,7 +80,8 @@ const userReviewsList = [
   },
   {
     id: 7,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617d219ff3cfc11e55785fbe_Ganga%20Sunil.png',
     name: 'Gangasunil Reddy',
     company: '',
     companyLogoUrl:
@@ -85,7 +92,8 @@ const userReviewsList = [
   },
   {
     id: 8,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6b464b7ed22320e6ed3_Avichal%20Gupta.png',
     name: 'Avichal Gupta',
     company: '',
     companyLogoUrl:
@@ -96,7 +104,8 @@ const userReviewsList = [
   },
   {
     id: 9,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f017eb3c798baebcf1042_Jatin-5.png',
     name: 'Mokshith Sai',
     company: '',
     companyLogoUrl:
@@ -107,7 +116,8 @@ const userReviewsList = [
   },
   {
     id: 10,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f017e632baac39c4f429a_Jatin-7.png',
     name: 'Anitha Saisadhanala',
     company: '',
     companyLogoUrl:
@@ -118,7 +128,8 @@ const userReviewsList = [
   },
   {
     id: 11,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f017e04df013d320e5ac1_Jatin-6.png',
     name: 'Bala Subramanyam',
     company: '',
     companyLogoUrl:
@@ -129,7 +140,8 @@ const userReviewsList = [
   },
   {
     id: 12,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f0179c92e92adf49d4d08_Jatin-1.png',
     name: 'Sampath Kumar',
     company: '',
     companyLogoUrl:
@@ -140,7 +152,8 @@ const userReviewsList = [
   },
   {
     id: 13,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6be64b7ed1b0f0e6f12_Sk%20Izajur%20Rahaman.png',
     name: 'Aniketh Varma',
     company: '',
     companyLogoUrl:
@@ -151,7 +164,8 @@ const userReviewsList = [
   },
   {
     id: 14,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6b279a9348792d1ac6c_Arham%20Tabish.png',
     name: 'Sk Izajur Rahaman',
     company: '',
     companyLogoUrl:
@@ -162,7 +176,8 @@ const userReviewsList = [
   },
   {
     id: 15,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a03204d472376_Rahul%20Kumar%202x.png',
     name: 'Arham Tabish',
     company: '',
     companyLogoUrl:
@@ -173,7 +188,8 @@ const userReviewsList = [
   },
   {
     id: 16,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/623f017ec92e9225009d4d5c_Jatin-4.png',
     name: 'Rahul Kumar',
     company: '',
     companyLogoUrl:
@@ -184,7 +200,8 @@ const userReviewsList = [
   },
   {
     id: 17,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6b7c9880a8ea83879da_Jatin.png',
     name: 'Siva Shankarmalla',
     company: '',
     companyLogoUrl:
@@ -195,7 +212,8 @@ const userReviewsList = [
   },
   {
     id: 18,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a03374347237a_Yashi%20Agarwal%202x.png',
     name: 'Jatin',
     company: '',
     companyLogoUrl:
@@ -206,7 +224,8 @@ const userReviewsList = [
   },
   {
     id: 19,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a0366fe472372_Kshitij%20Raut%202x.png',
     name: 'Yashi Agarwal',
     company: '',
     companyLogoUrl:
@@ -217,7 +236,8 @@ const userReviewsList = [
   },
   {
     id: 20,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a03f657472378_Likith%20Sai%202x.png',
     name: 'Kshitij Raut',
     company: '',
     companyLogoUrl:
@@ -228,7 +248,8 @@ const userReviewsList = [
   },
   {
     id: 21,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6b6e6bb677838b91e62_Gulshan%20Mohiddin%20Shaik.png',
     name: 'Likith Sai',
     company: '',
     companyLogoUrl:
@@ -239,7 +260,8 @@ const userReviewsList = [
   },
   {
     id: 22,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png',
     name: 'Gulshan Mohiddin',
     company: '',
     companyLogoUrl:
@@ -250,7 +272,8 @@ const userReviewsList = [
   },
   {
     id: 23,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a033d1d472374_Anvesh%202x.png',
     name: 'Subesh',
     company: '',
     companyLogoUrl:
@@ -261,7 +284,8 @@ const userReviewsList = [
   },
   {
     id: 24,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a034899472368_Pranesh%202x.png',
     name: 'Anvesh',
     company: '',
     companyLogoUrl:
@@ -272,7 +296,8 @@ const userReviewsList = [
   },
   {
     id: 25,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/617be58b4a5a034a3c47236e_Vineet%20Singla%202x.png',
     name: 'Pranesh',
     company: '',
     companyLogoUrl:
@@ -283,7 +308,8 @@ const userReviewsList = [
   },
   {
     id: 26,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6b8b2998204dc051c36_Manoj%20Kumar.png',
     name: 'Vineet Singla',
     company: '',
     companyLogoUrl:
@@ -294,7 +320,8 @@ const userReviewsList = [
   },
   {
     id: 27,
-    imageUrl: '',
+    imageUrl:
+      'https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af11fc5c7ef640216e_Aditya%20Lodhi.png',
     name: 'Shubham Deshmukh',
     company: '',
     companyLogoUrl:
@@ -316,34 +343,36 @@ class UserReviews extends Component {
     autoplaySpeed: 0,
     fade: false,
     cssEase: 'linear',
-    // appendDots: dots => (
-    //   <div
-    //     style={{
-    //       padding: '10px',
-    //       margin: '-30px',
-    //     }}
-    //   >
-    //     <ul className="dot-style" style={{margin: '-20px'}}>
-    //       {dots}
-    //     </ul>
-    //   </div>
-    // ),
-    // customPaging: i => (
-    //   <div
-    //     style={{
-    //       width: '40px',
-    //       height: '40px',
-    //       color: '#183b56',
-    //       fontSize: '20px',
-    //     }}
-    //   >
-    //     {i + 1}
-    //   </div>
-    // ),
+    appendDots: dots => (
+      <div
+        style={{
+          padding: '10px',
+          marginTop: '-100px',
+        }}
+      >
+        <ul className="dot-style" style={{marginBottom: '-50px'}}>
+          {dots}
+        </ul>
+      </div>
+    ),
+    customPaging: i => (
+      <div
+        style={{
+          width: '40px',
+          height: '40px',
+          color: '#183b56',
+          fontSize: '20px',
+          backgroundImage: `url(${userReviewsList[i].imageUrl})`,
+          backgroundSize: 'cover',
+        }}
+      >
+        {}
+      </div>
+    ),
   }
 
   renderReview = item => (
-    <div className="render-review-div">
+    <div id="reviews" className="render-review-div">
       <div className="first-review-div">
         <img
           src="https://assets-global.website-files.com/6170ed8e3c70e970603ed980/6176c3122d34b07b0e02301d_left-quote%201.svg"

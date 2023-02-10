@@ -19,11 +19,15 @@ const SecondSection = () => (
         className="company-logos"
       />
     </div>
-    <div className="rcb-image-div">
-      <img
-        src="https://res.cloudinary.com/drbvi0aqp/image/upload/v1674912818/rcb_forhlx.jpg"
-        alt="rcb"
-      />
+    <div className="sub-rcb">
+      <div className="rcb-image-div">
+        <h1>Official EdTech Partner</h1>
+        <img
+          src="https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6257bc40217484fe87a2c6f2_Group%207826.svg"
+          alt="rcb-logo"
+        />
+        <p>#LearnBold in Your Career!</p>
+      </div>
     </div>
   </div>
 )

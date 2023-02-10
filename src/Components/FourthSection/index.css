@@ -10,10 +10,10 @@
   padding: 100px 20px;
 }
 .all-companies-component h1 {
-  width: 850px;
-  font-size: 50px;
-  margin-bottom: 40px;
-  line-height: 70px;
+  width: 80%;
+  font-size: 2em;
+  margin-bottom: 5vh;
+  line-height: 1em;
 }
 .all-companies-component h1 span {
   color: #1565d8;
@@ -47,4 +47,14 @@
   width: 130px;
   font-size: 18px;
   font-weight: 700;
+}
+@media screen and (max-width: 484px) {
+  .request-callback-button {
+    width: 35%;
+    font-size: 15px;
+  }
+  .view-all-companies {
+    width: 35%;
+    font-size: 15px;
+  }
 }

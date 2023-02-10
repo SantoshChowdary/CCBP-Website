@@ -6,6 +6,7 @@
 .first-section-display {
   padding: 30px 80px;
   display: flex;
+  width: 100%;
 }
 .first-div {
   width: 30%;
@@ -14,9 +15,11 @@
   flex-direction: column;
 }
 .first-div h1 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 60px;
   margin-bottom: 40px;
+  color: #183b56;
+  font-style: italic;
 }
 .first-div p {
   text-align: center;
@@ -33,4 +36,82 @@
 }
 .product-cards-list {
   display: flex;
+}
+@media screen and (max-width: 576px) {
+  .first-section-display {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .first-div {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .first-div h1 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+  }
+  .first-div p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .first-div img {
+    width: 40vw;
+    align-self: center;
+  }
+  .first-div-awards-section img {
+    width: 30%;
+  }
+  .first-div-awards-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .product-cards-list {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .first-section-display {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .first-div {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .first-div h1 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+  }
+  .first-div p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .first-div img {
+    width: 40vw;
+    align-self: center;
+  }
+  .first-div-awards-section img {
+    width: 20%;
+  }
+  .first-div-awards-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .product-cards-list {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .first-section-display {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 923px) {
+  .product-cards-list {
+    flex-direction: column;
+  }
 }

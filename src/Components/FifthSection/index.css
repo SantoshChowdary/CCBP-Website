@@ -4,11 +4,13 @@
 }
 .awards-section {
   background-color: #212635;
+  background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/award-section/awards-section-bg-pattern.png');
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 50px 80px;
   width: 100%;
+  height: 35%;
   color: white;
 }
 .awards-sub-div-2 {
@@ -19,8 +21,8 @@
   margin-right: 20px;
 }
 .sonali-award {
-  width: 650px;
-  height: 390px;
+  width: 611px;
+  height: 365px;
 }
 .awards-first-div {
   display: flex;
@@ -40,4 +42,20 @@
 .business-awards-pic {
   width: 320px;
   margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .sonali-award {
+    width: 50%;
+    height: 50%;
+  }
+  .awards-sub-div-2 img {
+    width: 10%;
+    height: 30%;
+  }
+  .awards-sub-div-2 h1 {
+    font-size: 1em;
+  }
+  .business-awards-pic {
+    width: 65%;
+  }
 }

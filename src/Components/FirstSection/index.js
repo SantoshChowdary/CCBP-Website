@@ -34,7 +34,7 @@ const productDisplayCardsData = [
 class FirstSection extends Component {
   render() {
     return (
-      <div className="first-section-display">
+      <div id="home" className="first-section-display">
         <div className="first-div">
           <h1>
             Designed to transform you into a highly skilled Software

@@ -10,9 +10,13 @@ class Header extends Component {
           alt="nxtwave-logo"
         />
         <ul className="nav-items-container">
-          <li style={{color: '#4F46E5'}}>Home</li>
+          <li style={{color: '#4F46E5'}}>
+            <a href="#home">Home</a>
+          </li>
           <li>Programs</li>
-          <li>Reviews</li>
+          <li>
+            <a href="#reviews">Reviews</a>
+          </li>
           <li>Hire with Us</li>
           <li>Login</li>
         </ul>

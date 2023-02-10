@@ -12,7 +12,9 @@
 .masterclass-section {
   background-color: #183b56;
   color: white;
-  padding: 100px;
+  padding: 3% 10%;
+  display: flex;
+  flex-direction: column;
 }
 .masterclass-first-section {
   display: flex;
@@ -26,6 +28,7 @@
 }
 .main-masterclass {
   width: 40%;
+  height: 40%;
   background-color: white;
   color: #183b56;
   border-radius: 15px;
@@ -47,11 +50,12 @@
   color: #b3bac5;
 }
 .masterclass-sub-section-1 img {
-  width: 600px;
+  width: 80%;
   margin-bottom: 60px;
 }
 .sub-masterclasses {
   margin-top: 100px;
+  align-self: center;
   display: flex;
 }
 .sub-masterclasses li {
@@ -60,7 +64,7 @@
   color: #183b56;
   background-color: white;
   border-radius: 15px;
-  margin-right: 20px;
+  margin: 0 20px 20px 0;
 }
 .mentor-profile {
   width: 100%;
@@ -80,4 +84,39 @@
 }
 .sub-masterclasses li h3 {
   margin-left: 15px;
+}
+@media screen and (max-width: 1300px) {
+  .sub-masterclasses {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1em;
+  }
+  .masterclass-sub-section-1 h1 {
+    font-size: 2rem;
+  }
+  .masterclass-sub-section-1 p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .masterclass-first-section {
+    flex-direction: column;
+  }
+  .masterclass-sub-section-1 {
+    width: 100%;
+  }
+  .main-masterclass {
+    align-self: center;
+    margin-top: 10%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 576px) {
+  .sub-masterclasses li {
+    width: 45%;
+  }
+  .sub-masterclasses li p {
+    font-size: 0.8rem;
+  }
 }

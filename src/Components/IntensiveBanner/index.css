@@ -1,6 +1,7 @@
 .intensive-banner {
   background-color: #4f46e5;
   height: 7vh;
+  width: 100%;
   font-weight: 700;
   text-align: center;
   color: white;
@@ -13,4 +14,16 @@
   border-radius: 10px;
   font-size: 10px;
   padding: 5px;
+}
+
+@media screen and (max-width: 479px) {
+  .intensive-banner {
+    height: 100px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  .intensive-banner p {
+    font-size: 13px;
+    font-weight: 500;
+  }
 }

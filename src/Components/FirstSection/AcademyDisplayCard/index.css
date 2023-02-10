@@ -88,3 +88,17 @@
   font-size: 15px;
   font-weight: 600;
 }
+@media screen and (max-width: 900px) {
+  .academy-display-card {
+    width: 80vw;
+    padding: 20px;
+    height: auto;
+    margin: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-heading {
+    width: 70%;
+  }
+}
