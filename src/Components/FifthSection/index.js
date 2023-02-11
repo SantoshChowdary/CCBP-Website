@@ -5,7 +5,7 @@ class AwardsSection extends Component {
   render() {
     return (
       <div className="awards-section">
-        <div className="awards-first-div">
+        <div className="container awards-first-div">
           <div className="awards-sub-div-1">
             <div className="awards-sub-div-2">
               <img
@@ -27,11 +27,13 @@ class AwardsSection extends Component {
             />
           </div>
         </div>
-        <img
-          src="https://nxtwave.imgix.net/ccbp-website/Home/award-section/award-taking-image.png?auto=format,compress&q=80"
-          alt="sonali-award"
-          className="sonali-award"
-        />
+        <div className="container">
+          <img
+            src="https://nxtwave.imgix.net/ccbp-website/Home/award-section/award-taking-image.png?auto=format,compress&q=80"
+            alt="sonali-award"
+            className=" container sonali-award"
+          />
+        </div>
       </div>
     )
   }

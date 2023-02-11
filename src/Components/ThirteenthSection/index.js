@@ -12,7 +12,7 @@ class FooterSection extends Component {
   render() {
     return (
       <div className="footer-section">
-        <div className="footer-1">
+        <div className="container footer-1">
           <div className="sub-footer-1">
             <h1>
               Nxt
@@ -97,7 +97,7 @@ class FooterSection extends Component {
           </div>
         </div>
         <hr className="hr-line" />
-        <div className="footer-2">
+        <div className="container footer-2">
           <div className="footer-2-sub-1">
             <BsInstagram />
             <BsTwitter />

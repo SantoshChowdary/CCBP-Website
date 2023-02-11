@@ -11,18 +11,37 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 30px 80px;
-  height: 10vh;
+  height: 13vh;
 }
 .nav-bar ul {
   display: flex;
+  align-items: center;
   margin-right: 50px;
+  margin-bottom: 0;
 }
 .nav-bar ul li {
   margin-right: 30px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
+}
+.nav-bar ul li a {
+  color: black;
 }
 .react-arrow-icon {
   padding-top: 2px;
   color: #4f46e5;
+}
+.home-link,
+.login-link {
+  color: #1565d8 !important;
+}
+@media screen and (max-width: 992px) {
+  .nav-bar ul {
+    display: none;
+  }
+}
+@media screen and (min-width: 993px) {
+  .login-button {
+    display: none;
+  }
 }

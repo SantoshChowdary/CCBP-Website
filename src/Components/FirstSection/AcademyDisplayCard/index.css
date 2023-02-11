@@ -3,26 +3,27 @@
   margin: 0;
 }
 .academy-display-card {
-  border: 2px solid #b5b5b3;
+  border: 1px solid #b5b5b3;
   border-radius: 15px;
   margin: 20px 40px;
   padding: 10px 30px;
   width: 360px;
-  height: 570px;
+  /* height: 570px; */
   background-color: white;
   display: flex;
   flex-direction: column;
 }
 .image-first-div {
   display: flex;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 .student-image {
   width: 150px;
   height: 240px;
 }
 .second-div {
-  margin-top: -30px;
+  margin-top: -50px;
+  padding: 10px 0;
   background-color: white;
 }
 .product-logo {
@@ -49,7 +50,8 @@
   margin: 10px 0 10px 0;
 }
 .card-heading {
-  font-size: 24px;
+  font-size: 20px;
+  padding: 15px 0;
   color: #183b56;
 }
 .batch-data-div,
@@ -73,13 +75,13 @@
 .book-demo-link {
   text-align: center;
   background-color: #1565d8;
-  width: 290px;
+  width: 90%;
   height: 48px;
   align-self: center;
-  padding: 15px 30px;
+  padding-top: 10px;
   color: white;
-  border-radius: 20px;
-  font-weight: 700;
+  border-radius: 10px;
+  font-weight: 600;
   font-size: 15px;
 }
 .know-more-link {

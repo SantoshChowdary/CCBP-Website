@@ -55,46 +55,50 @@ const mentorDetails = [
 class MentorsSection extends Component {
   render() {
     return (
-      <div className="mentors-section">
-        <h1>
-          Our top-notch team helps you learn Programming, not just Coding!
-        </h1>
-        <ul className="main-div">
-          {mentorDetails.map(item => (
-            <li className="mentor-list">
-              <h3>{item.heading}</h3>
-              <div className="profiles-div">
-                <div className="sub-div-1">
-                  <img
-                    src={item.image1Url}
-                    alt={item.person1Name}
-                    className="mentor-image"
-                  />
-                  <p>{item.person1Name}</p>
-                  <p>{item.person1Job}</p>
-                </div>
-                <div className="sub-div-1">
-                  <img
-                    src={item.image2Url}
-                    alt={item.person2Name}
-                    className="mentor-image"
-                  />
-                  <p>{item.person2Name}</p>
-                  <p>{item.person2Job}</p>
-                </div>
-              </div>
-              <p className="many-more-para">and more...</p>
-            </li>
-          ))}
-        </ul>
-        <a
-          href="https://forms.ccbp.in/public/form/talk-to-career-expert"
-          target="_blank"
-          rel="noreferrer"
-          className="mentor-demo-link"
-        >
-          Request a Callback
-        </a>
+      <div className="container">
+        <div className="row">
+          <div className="mentors-section">
+            <h1>
+              Our top-notch team helps you learn Programming, not just Coding!
+            </h1>
+            <ul className="main-div">
+              {mentorDetails.map(item => (
+                <li className="mentor-list">
+                  <h3>{item.heading}</h3>
+                  <div className="profiles-div">
+                    <div className="sub-div-1">
+                      <img
+                        src={item.image1Url}
+                        alt={item.person1Name}
+                        className="mentor-image"
+                      />
+                      <p>{item.person1Name}</p>
+                      <p>{item.person1Job}</p>
+                    </div>
+                    <div className="sub-div-1">
+                      <img
+                        src={item.image2Url}
+                        alt={item.person2Name}
+                        className="mentor-image"
+                      />
+                      <p>{item.person2Name}</p>
+                      <p>{item.person2Job}</p>
+                    </div>
+                  </div>
+                  <p className="many-more-para">and more...</p>
+                </li>
+              ))}
+            </ul>
+            <a
+              href="https://forms.ccbp.in/public/form/talk-to-career-expert"
+              target="_blank"
+              rel="noreferrer"
+              className="mentor-demo-link"
+            >
+              Request a Callback
+            </a>
+          </div>
+        </div>
       </div>
     )
   }

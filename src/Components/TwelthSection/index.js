@@ -184,32 +184,40 @@ class MediaSection extends Component {
 
   render() {
     return (
-      <div className="media-section">
-        <h1 className="h">
-          NxtWave<sup>TM</sup> in the Media
-        </h1>
-        <div className="media-card-section">
-          <Slider {...this.settings} className="media-slider">
-            {newsList.map(item => (
-              <div className="media-card">
-                <div className="card-sub-div-2">
-                  <img src={item.websiteUrl} alt="media-logo" />
-                  <p>{item.date}</p>
-                </div>
-                <img
-                  src={item.imageUrl}
-                  alt={item.heading}
-                  className="media-img"
-                />
-                <h4>{item.heading}</h4>
-                <div className="card-link-div">
-                  <a href={item.articleLink} target="_blank" rel="noreferrer">
-                    Read Article
-                  </a>
-                </div>
-              </div>
-            ))}
-          </Slider>
+      <div className="container">
+        <div className="row">
+          <div className="container media-section">
+            <h1 className="h">
+              NxtWave<sup>TM</sup> in the Media
+            </h1>
+            <div className="media-card-section">
+              <Slider {...this.settings} className="media-slider">
+                {newsList.map(item => (
+                  <div className="media-card container">
+                    <div className="card-sub-div-2">
+                      <img src={item.websiteUrl} alt="media-logo" />
+                      <p>{item.date}</p>
+                    </div>
+                    <img
+                      src={item.imageUrl}
+                      alt={item.heading}
+                      className="media-img"
+                    />
+                    <h4>{item.heading}</h4>
+                    <div className="card-link-div">
+                      <a
+                        href={item.articleLink}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Read Article
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
+            </div>
+          </div>
         </div>
       </div>
     )

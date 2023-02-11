@@ -9,8 +9,8 @@
   width: 100%;
 }
 .first-div {
-  width: 30%;
-  padding: 20px;
+  width: 35%;
+  padding: 20px 30px 20px 0px;
   display: flex;
   flex-direction: column;
 }

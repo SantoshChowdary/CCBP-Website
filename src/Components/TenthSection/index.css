@@ -12,6 +12,7 @@
 .masterclass-section {
   background-color: #183b56;
   color: white;
+  /* width: 70%; */
   padding: 3% 10%;
   display: flex;
   flex-direction: column;

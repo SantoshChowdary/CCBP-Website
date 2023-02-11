@@ -40,7 +40,7 @@ class MasterClassMentors extends Component {
   render() {
     return (
       <div className="masterclass-section">
-        <div className="masterclass-first-section">
+        <div className="container masterclass-first-section">
           <div className="masterclass-sub-section-1">
             <h1>
               Masterclasses from <br />

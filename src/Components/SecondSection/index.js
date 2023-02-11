@@ -2,7 +2,7 @@ import './index.css'
 
 const SecondSection = () => (
   <div className="second-section">
-    <div className="section-1">
+    <div className="section-1 container">
       <p>LEARN THE BEST FROM THE ALUMNI OF</p>
       <img
         src="https://nxtwave.imgix.net/ccbp-website/intensive/learn-the-best-from-the-alumni/Alumni_2x.png?auto=format,compress&q=80"
@@ -11,7 +11,7 @@ const SecondSection = () => (
       />
       <p>and many more</p>
     </div>
-    <div className="section-2">
+    <div className="section-2 container">
       <p>RECOGNIZED BY</p>
       <img
         src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/recognised-by-logos.png"
