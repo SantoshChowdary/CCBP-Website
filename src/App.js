@@ -14,6 +14,8 @@ import MasterClassMentors from './Components/TenthSection'
 import InvestorsData from './Components/EleventhSection'
 import MediaSection from './Components/TwelthSection'
 import FooterSection from './Components/ThirteenthSection'
+import PolicySection from './Components/FourteenthSection'
+import WhatsAppButton from './Components/FifteenthSection'
 import './App.css'
 
 class App extends Component {
@@ -34,6 +36,8 @@ class App extends Component {
         <InvestorsData />
         <MediaSection />
         <FooterSection />
+        <PolicySection />
+        <WhatsAppButton />
       </>
     )
   }

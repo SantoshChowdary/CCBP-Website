@@ -44,9 +44,12 @@
   margin-top: 20px;
 }
 @media screen and (max-width: 1000px) {
+  .awards-section {
+    padding: 30px 40px;
+  }
   .sonali-award {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
   }
   .awards-sub-div-2 img {
     width: 10%;
